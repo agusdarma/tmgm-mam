@@ -12,11 +12,11 @@ class LandingController extends Controller
     {
         // $items = Item::with(['type', 'brand'])->latest()->take(4)->get()->reverse();
         $euro = Item::with(['type', 'brand'])->whereName('Euro Swing Master')->take(4)->get()->firstOrFail();
-        $golden = Item::with(['type', 'brand'])->whereName('Golden Trend')->take(4)->get()->firstOrFail();
+        $pound = Item::with(['type', 'brand'])->whereName('Pound Swing Master')->take(4)->get()->firstOrFail();
 
         return view('landing', [
             'euro' => $euro,
-            'golden' => $golden,
+            'pound' => $pound,
             
 
         ]);

@@ -29,6 +29,7 @@ return [
     'landingText16' => 'Using Artificial Intelligence',
     'landingText17' => 'Most of the entries are based on artificial intelligence in time frame 15 and 30 minutes, 1 and 4 hours and daily. The entries are a combination of several strategies. ',
     
+    // euro-swing-master.blade.php
     'euroSwingText1' => 'Euro Swing Master',
     'euroSwingText2' => 'Euro Swing Master is a complete automated trading robot that has designed and create based on artificial intelligence ( AI ).',
     'euroSwingText3' => 'is a complete automated trading robot that has designed and create based on our best strategies in forex trading. All trades are protected by stop loss, user can use a fixed lot or auto lot money management.',
@@ -55,7 +56,34 @@ return [
     'euroSwingText24' => 'Package Diamond',
     'euroSwingText25' => '4000',
     'euroSwingText26' => '10%',
-    
+
+    // pound-swing-master.blade.php
+    'poundSwingText1' => 'Pound Swing Master',
+    'poundSwingText2' => 'Pound Swing Master is a complete automated trading robot that has designed and create based on artificial intelligence ( AI ).',
+    'poundSwingText3' => 'is a complete automated trading robot that has designed and create based on our best strategies in forex trading. All trades are protected by stop loss, user can use a fixed lot or auto lot money management.',
+    'poundSwingText4' => 'We have given several strategies and indicators to the artificial intelligence and the artificial intelligence decides everything. Some of the strategies we have used Harmonic patterns, candlestick patterns, support/resistance levels, elliott waves, trend line and fork and channel, zigzag indicator, mathematical calculations on candles (details are confidential), and a few more.',
+    'poundSwingText5' => 'Artificial intelligence makes decisions based on the past 400 or 500 candles',
+    'poundSwingText6' => 'Join Now',
+    'poundSwingText7' => 'Pound Swing Master Copy Signal Requirement',
+    'poundSwingText8' => 'Package Silver',
+    'poundSwingText9' => '500',
+    'poundSwingText10' => 'Minimum start',
+    'poundSwingText11' => 'No Need',
+    'poundSwingText12' => 'VPS',
+    'poundSwingText13' => 'AutoTrade',
+    'poundSwingText14' => 'On',
+    'poundSwingText15' => 'Profit Sharing',
+    'poundSwingText16' => '30%',
+    'poundSwingText17' => 'Telegram & Email Support',
+    'poundSwingText18' => 'Package Gold',
+    'poundSwingText19' => '1000',
+    'poundSwingText20' => '25%',
+    'poundSwingText21' => 'Package Platinum',
+    'poundSwingText22' => '2000',
+    'poundSwingText23' => '20%',
+    'poundSwingText24' => 'Package Diamond',
+    'poundSwingText25' => '4000',
+    'poundSwingText26' => '10%',
     
     // verify-email.blade.php
     'verifyEmailText1' => 'Verify your Email Account',

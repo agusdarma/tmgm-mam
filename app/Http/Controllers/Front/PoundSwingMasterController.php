@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Log;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Route;
 
-class GoldenTrendController extends Controller
+class PoundSwingMasterController extends Controller
 {
     public function index($slug)
     {

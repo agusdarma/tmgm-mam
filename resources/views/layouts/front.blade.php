@@ -103,7 +103,7 @@
                     <a class="menu-link" href="/euro-swing-master/euro-swing-master-n2i8j"><div><i class="bi-currency-euro"></i>Euro Swing Master</div></a>                   
                   </li>
                   <li class="menu-item">
-                    <a class="menu-link" href="/euro-swing-master/euro-swing-master-n2i8j"><div><i class="bi-currency-pound"></i>Pound Swing Master</div></a>                    
+                    <a class="menu-link" href="/pound-swing-master/pound-swing-master-8kkbd"><div><i class="bi-currency-pound"></i>Pound Swing Master</div></a>                    
                   </li>                                                      
                 </ul>
               </li>                                                        
@@ -222,7 +222,7 @@
                       </li>
                       <li>
                         <a
-                          href="/golden-trend/golden-trend-8kkbd"
+                          href="/pound-swing-master/pound-swing-master-8kkbd"
                           >Pound Swing Master</a
                         >
                       </li>

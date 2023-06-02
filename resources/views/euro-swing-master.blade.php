@@ -8,7 +8,7 @@
                     <div class="text-center col-md-7 text-md-start bg-light">
 
                       <div id="sini" class="mt-4 heading-block">
-                        <h2 class="text-black fw-bold bg-hijau-stabilo" style="width: 21rem;">{{ __('messages.euroSwingText1') }}</h2>
+                        <h2 class="text-black fw-bold">{{ __('messages.euroSwingText1') }}</h2>
                         <span>{{ __('messages.euroSwingText2') }}</span>
                       </div>
 
@@ -124,7 +124,7 @@
                     <div class="col-md-10">                        
                       <p class="mb-4 text-black text-uppercase fw-semibold ls-1 font-primary">WITH EURO SWING MASTER EXPERT ADVISOR</p>
                       <h1 class="display-3 fw-normal" style="letter-spacing: -1px;">You can auto-trade with a robot which not only profitable, 
-                        <div class="text-black badge bg-hijau-stabilo" style="width: 24rem;"> but also stable. </div> 
+                        <div class="text-black badge"> but also stable. </div> 
                       </h1>
                       <div class="divider divider-right"><i class="bi-heart-fill"></i></div>
                       <h3>How Euro Swing Master Works?</h3>
