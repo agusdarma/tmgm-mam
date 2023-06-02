@@ -25,7 +25,7 @@ class GoldenTrendController extends Controller
         , price12Month: {price12Month}  ',['priceBase' => $priceBase,'price1Month' => $price1Month,'price3Month' => $price3Month,
         'price6Month' => $price6Month,'price12Month' => $price12Month,'controllerName' => $controllerName]);
 
-        return view('golden-trend', [
+        return view('pound-swing-master', [
             'item' => $item,
             'price1Month' => $price1Month,
             'price3Month' => $price3Month,
