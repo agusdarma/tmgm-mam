@@ -57,7 +57,7 @@
   --bs-danger-rgb: 220, 53, 69;
   --bs-light-rgb: 248, 249, 250;
   --bs-hijau-stabilo: 95, 253, 170;
-  --bs-tmgm: 95, 253, 170;
+  --bs-tmgm-rgb: 0, 8, 80;
   --bs-gold: 255, 215, 0;
   --bs-dark-rgb: 33, 37, 41;
   --bs-primary-text-emphasis: #052c65;
@@ -9273,7 +9273,7 @@ fieldset:disabled .btn {
 
 .bg-white {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-white-rgb), var(--bs-bg-opacity)) !important;
+  background-color: rgba(var(--bs-tmgm-rgb), var(--bs-bg-opacity)) !important;
 }
 
 .bg-body {

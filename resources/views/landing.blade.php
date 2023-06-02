@@ -33,11 +33,11 @@
           <div class="col-sm-6 col-lg-4">
             <div class="feature-box fbox-effect">
               <div class="fbox-icon">
-                <a href="#"><i class="bi-sign-stop i-alt"></i></a>
+                <a href=""><i class="bi-sign-stop i-alt"></i></a>
               </div>
               <div class="fbox-content">
                 <h3>{{ __('messages.landingText8') }}</h3>
-                <p>Looks beautiful &amp; ultra-sharp on Retina Screen Displays. Retina Icons, Fonts &amp; all others graphics are optimized.</p>
+                <p>{{ __('messages.landingText9') }}</p>
               </div>
             </div>
           </div>
@@ -45,11 +45,11 @@
           <div class="col-sm-6 col-lg-4">
             <div class="feature-box fbox-effect">
               <div class="fbox-icon">
-                <a href="#"><i class="bi-box i-alt"></i></a>
+                <a href=""><i class="bi-currency-dollar i-alt"></i></a>
               </div>
               <div class="fbox-content">
-                <h3>Powerful Performance</h3>
-                <p>Canvas includes tons of optimized code that are completely customizable and deliver unmatched fast performance.</p>
+                <h3>{{ __('messages.landingText10') }}</h3>
+                <p>{{ __('messages.landingText11') }}</p>
               </div>
             </div>
           </div>
@@ -57,11 +57,11 @@
           <div class="col-sm-6 col-lg-4">
             <div class="feature-box fbox-effect">
               <div class="fbox-icon">
-                <a href="#"><i class="bi-layers-half i-alt"></i></a>
+                <a href="#"><i class="bi-calculator i-alt"></i></a>
               </div>
               <div class="fbox-content">
-                <h3>Premium Sliders Included</h3>
-                <p>Canvas included 20+ custom designed Slider Pages with Premium Sliders like Layer, Revolution, Swiper &amp; others.</p>
+                <h3>{{ __('messages.landingText12') }}</h3>
+                <p>{{ __('messages.landingText13') }}</p>
               </div>
             </div>
           </div>
@@ -69,11 +69,11 @@
           <div class="col-sm-6 col-lg-4">
             <div class="feature-box fbox-effect">
               <div class="fbox-icon">
-                <a href="#"><i class="bi-droplet-half i-alt"></i></a>
+                <a href="#"><i class="uil-moneybag i-alt"></i></a>
               </div>
               <div class="fbox-content">
-                <h3>Unlimited Color Options</h3>
-                <p>Change the color scheme of the Theme in a flash just by changing the 6-digit HEX code in the colors.php file.</p>
+                <h3>{{ __('messages.landingText14') }}</h3>
+                <p>{{ __('messages.landingText15') }}</p>
               </div>
             </div>
           </div>
@@ -81,11 +81,11 @@
           <div class="col-sm-6 col-lg-4">
             <div class="feature-box fbox-effect">
               <div class="fbox-icon">
-                <a href="#"><i class="bi-textarea-t i-alt"></i></a>
+                <a href="#"><i class="bi-robot i-alt"></i></a>
               </div>
               <div class="fbox-content">
-                <h3>Customizable Fonts</h3>
-                <p>Use any Font you like from Google Web Fonts, Typekit or other Web Fonts. They will blend in perfectly.</p>
+                <h3>{{ __('messages.landingText16') }}</h3>
+                <p>{{ __('messages.landingText17') }}</p>
               </div>
             </div>
           </div>

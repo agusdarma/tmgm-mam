@@ -62,7 +62,7 @@
 
             <ul class="menu-container">
               <li class="menu-item">
-                <a class="menu-link" href="index.html"><div>Home</div></a>                
+                <a class="menu-link" href="/"><div>Home</div></a>                
               </li>
               <li class="menu-item">
                 <a class="menu-link" href="#"><div>Packages</div></a>
@@ -94,7 +94,7 @@
             <div class="container">
               <div class="slider-caption slider-caption-center">
                 <h1 data-animate="fadeInUp">{{ __('messages.frontText1') }}</h1>
-                <p class="d-none d-sm-block" data-animate="fadeInUp" data-delay="200">{{ __('messages.frontText2') }} <h2> <span class="bg-white text-primary">{{ __('messages.frontText3') }}</span></h2></p>
+                <p class="d-none d-sm-block" data-animate="fadeInUp" data-delay="200">{{ __('messages.frontText2') }} <h1> <span class="text-white bg-white rounded">{{ __('messages.frontText3') }}</span></h1></p>
               </div>
             </div>
             <div class="swiper-slide-bg" style="background-image: url('{{ url("build/assets/all/images/slider/swiper/1.jpg")}}');"></div>

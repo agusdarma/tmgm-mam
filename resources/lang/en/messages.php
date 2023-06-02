@@ -19,6 +19,16 @@ return [
     'landingText6' => 'Without the use of dangerous strategies such as martingales and hedges.',
     'landingText7' => 'No Grid and Martingale',
     'landingText8' => 'Using Take Profit and Stoploss',
+    'landingText9' => 'EA uses take profit or stop loss to close trades, so there is no need to worry about margin calls or stop outs',
+    'landingText10' => 'Minimum investment',
+    'landingText11' => 'You can start trading with as little as $500',
+    'landingText12' => 'Calculating Risk Rewards',
+    'landingText13' => 'EA Calculating Risk Rewards 1:1 automatically, So no need to worry about calculating lots manually',
+    'landingText14' => 'Safest Risk Per Trade System',
+    'landingText15' => 'Risk per trade = 0.5-1% from balance per trade',
+    'landingText16' => 'Using Artificial Intelligence',
+    'landingText17' => 'Most of the entries are based on artificial intelligence in time frame 15 and 30 minutes, 1 and 4 hours and daily. The entries are a combination of several strategies. ',
+    
     
     
     // verify-email.blade.php
