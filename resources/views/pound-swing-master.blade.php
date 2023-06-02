@@ -222,10 +222,10 @@
       <div class="container">
         <div class="row justify-content-between align-items-center">
           <div class="col-lg-auto">
-            <strong><i class="bi-boxes"></i> Good News!</strong> Rent Pound Swing Master Expert NOW!
+            <strong><i class="bi-boxes"></i> Good News!</strong> Join Pound Swing Master Expert NOW!
           </div>
           <div class="mt-3 col-lg-auto mt-lg-0">
-            <a href="{{ route('front.checkout', $item->slug) }}" class="text-white btn btn-primary">Rent Now</a>
+            <a href="https://bit.ly/41STQWm" target="_blank" class="btn btn-success">Join Now</a>
             <button type="button" class="btn-close btn btn-link float-lg-none text-dark ms-md-3" data-bs-dismiss="alert" aria-hidden="true"></button>
           </div>
         </div>
