@@ -8,7 +8,7 @@
               <span>{{ __('messages.landingText2') }} <em>{{ __('messages.landingText3') }}</em> {{ __('messages.landingText4') }}</span>
             </div>
             <div class="mt-4 col-12 col-lg-auto mt-lg-0">
-              <a href="#" class="m-0 button button-reveal button-large button-circle text-end"><i class="uil uil-angle-right-b"></i><span>{{ __('messages.landingText5') }}</span></a>
+              <a href="https://bit.ly/41STQWm" target="_blank" class="m-0 button button-reveal button-large button-circle text-end"><i class="uil uil-angle-right-b"></i><span>{{ __('messages.landingText5') }}</span></a>
             </div>
           </div>
         </div>
@@ -92,9 +92,10 @@
 
         </div>
 
-        <div class="clear"></div><div class="line"></div>
+        {{-- <div class="clear"></div>
+        <div class="line"></div>
 
-        <div id="oc-clients-full" class="owl-carousel image-carousel carousel-widget" data-margin="30" data-nav="false" data-loop="true" data-autoplay="5000" data-pagi="false" data-items-xs="2" data-items-sm="3" data-items-md="4" data-items-lg="5" data-items-xl="6">
+        <div id="oc-clients-full" class="bg-black owl-carousel image-carousel carousel-widget" data-margin="30" data-nav="false" data-loop="true" data-autoplay="5000" data-pagi="false" data-items-xs="2" data-items-sm="3" data-items-md="4" data-items-lg="5" data-items-xl="6">
 
           <a href="#"><img src="{{ url("build/assets/all/images/clients/1.png")}}" alt="Clients"></a>
           <a href="#"><img src="{{ url("build/assets/all/images/clients/2.png")}}" alt="Clients"></a>
@@ -109,7 +110,7 @@
           <a href="#"><img src="{{ url("build/assets/all/images/clients/11.png")}}" alt="Clients"></a>
           <a href="#"><img src="{{ url("build/assets/all/images/clients/12.png")}}" alt="Clients"></a>
 
-        </div>
+        </div> --}}
 
       </div>
 </x-front-layout>

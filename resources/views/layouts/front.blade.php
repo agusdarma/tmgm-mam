@@ -56,6 +56,38 @@
             </button>
           </div>
 
+          <div class="header-misc">
+
+            <!-- Language
+            ============================================= -->
+            <div class="col-12 col-lg-3 col-md-2">
+              <div
+                class="top-links d-flex justify-content-center justify-content-lg-start"
+              >
+              <ul class="top-links-container">
+                @if(app()->getLocale() =='en') 
+                <li class="top-links-item">
+                  <a href="{{ route('front.changeLang','en') }}">en</a>
+                  <ul class="top-links-sub-menu" style="width: 53px; left: 0">
+                    <li class="top-links-item"><a href="{{ route('front.changeLang','id') }}">id</a></li>
+                  </ul>
+                </li>
+                @else
+                <li class="top-links-item">
+                  <a href="{{ route('front.changeLang','id') }}">id</a>
+                  <ul class="top-links-sub-menu" style="width: 53px; left: 0">
+                    <li class="top-links-item"><a href="{{ route('front.changeLang','en') }}">en</a></li>
+                  </ul>
+                </li>
+                @endif
+                
+              </ul>
+              </div>
+              <!-- .Language end -->
+            </div><!-- #language end -->    
+
+          </div>
+
           <!-- Primary Navigation
           ============================================= -->
           <nav class="primary-menu">
@@ -185,13 +217,13 @@
                       <li>
                         <a
                           href="/euro-swing-master/euro-swing-master-n2i8j"
-                          >Euro Swing Master EA</a
+                          >Euro Swing Master</a
                         >
                       </li>
                       <li>
                         <a
                           href="/golden-trend/golden-trend-8kkbd"
-                          >Golden Trend EA</a
+                          >Pound Swing Master</a
                         >
                       </li>
                       <li>
