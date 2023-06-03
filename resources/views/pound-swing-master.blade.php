@@ -119,92 +119,74 @@
         </div>                        
         <div class="row justify-content-center">
           <div class="col-md-10">                        
-            <p class="mb-4 text-black text-uppercase fw-semibold ls-1 font-primary">WITH POUND SWING MASTER EXPERT ADVISOR</p>
-            <h1 class="display-3 fw-normal" style="letter-spacing: -1px;">You can auto-trade with a robot which not only profitable, 
-              <div class="text-black badge"> but also stable. </div> 
+            <p class="mb-4 text-black text-uppercase fw-semibold ls-1 font-primary">{{ __('messages.poundSwingText27') }}</p>
+            <h1 class="display-3 fw-normal" style="letter-spacing: -1px;">{{ __('messages.poundSwingText28') }}<div class="text-black badge">{{ __('messages.poundSwingText29') }}</div> 
             </h1>
             <div class="divider divider-right"><i class="bi-heart-fill"></i></div>
-            <h3>How Pound Swing Master Works?</h3>
+            <h3>{{ __('messages.poundSwingText30') }}</h3>
 
             <div class="mb-0 row col-mb-50">
               <div class="col-md-6">
                 <ul class="iconlist iconlist-lg">
                   <li class="px-3 py-2 rounded bg-hijau-stabilo bg-opacity-10">
-                    <i class="bi-check-circle-fill"></i> <span>Minimum investment = $500</span></li>
+                    <i class="bi-check-circle-fill"></i> <span>{{ __('messages.poundSwingText31') }}</span></li>
                   <li class="px-3 py-2 rounded bg-hijau-stabilo bg-opacity-10">
-                    <i class="bi-check-circle-fill"></i> <span>Risk per trade = 0.5-1% from balance per trade</span></li>
+                    <i class="bi-check-circle-fill"></i> <span>{{ __('messages.poundSwingText32') }}</span></li>
                   <li class="px-3 py-2 rounded bg-hijau-stabilo bg-opacity-10">
-                    <i class="bi-check-circle-fill"></i> <span>Lot use = variable depends on balance</span></li>
+                    <i class="bi-check-circle-fill"></i> <span>{{ __('messages.poundSwingText33') }}</span></li>
                   <li class="px-3 py-2 rounded bg-hijau-stabilo bg-opacity-10">
-                    <i class="bi-check-circle-fill"></i> <span>Risk / Reward = 1:1</span></li>                            
+                    <i class="bi-check-circle-fill"></i> <span>{{ __('messages.poundSwingText34') }}</span></li>                            
                   <li class="px-3 py-2 rounded bg-hijau-stabilo bg-opacity-10">
-                    <i class="bi-check-circle-fill"></i> <span>Most of the entries are based on artificial intelligence in time frame 15 and 30
-                        minutes, 1 and 4 hours and daily.</span></li>
+                    <i class="bi-check-circle-fill"></i> <span>{{ __('messages.poundSwingText35') }}</span></li>
                 </ul>
               </div>
 
               <div class="col-md-6">
                 <ul class="iconlist iconlist-lg">
                   <li class="px-3 py-2 rounded bg-hijau-stabilo bg-opacity-10">
-                    <i class="bi-check-circle-fill"></i> <span>Without the use of dangerous strategies such as martingales and hedges.</span></li>
+                    <i class="bi-check-circle-fill"></i> <span>{{ __('messages.poundSwingText36') }}</span></li>
                   <li class="px-3 py-2 rounded bg-hijau-stabilo bg-opacity-10">
-                    <i class="bi-check-circle-fill"></i> <span>Each one of those strategies has been optimized based on historical data.</span></li>
+                    <i class="bi-check-circle-fill"></i> <span>{{ __('messages.poundSwingText37') }}</span></li>
                   <li class="px-3 py-2 rounded bg-hijau-stabilo bg-opacity-10">
-                    <i class="bi-check-circle-fill"></i> <span>The EA uses take profit or stop loss to close the trades.</span></li>                            
+                    <i class="bi-check-circle-fill"></i> <span>{{ __('messages.poundSwingText38') }}</span></li>                            
                   <li class="px-3 py-2 rounded bg-hijau-stabilo bg-opacity-10">
-                    <i class="bi-check-circle-fill"></i> <span>The entries are a combination of several strategies.</span></li>
+                    <i class="bi-check-circle-fill"></i> <span>{{ __('messages.poundSwingText39') }}</span></li>
                 </ul>
               </div>
             <div class="divider divider-right"><i class="bi-heart-fill"></i></div>
             
-            <h3>Backtest &amp; History</h3>
+            <h3>{{ __('messages.poundSwingText40') }}</h3>
 
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>        
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
               </div>
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img class="h-auto d-block w-100" src="{{ url("build/assets/all/images/equity.jpg")}}" alt="Equity History">
+                  <img class="h-auto d-block w-100" src="{{ url("build/assets/all/images/pound1.png")}}" alt="Backtest Result">
                   <div class="carousel-caption d-none d-lg-block">
-                    <h3 class="mb-2 text-black bg-golden" style="width: 18rem;">Equity History</h3>                              
+                    <h3 class="mb-2 text-black">Backtest Result</h3>                              
                   </div>
                 </div>
-                <div class="carousel-item">
-                  <img class="h-auto d-block w-100" src="{{ url("build/assets/all/images/draw_down.jpg")}}" alt="Drawdown History">
+                <div class="carousel-item active">
+                  <img class="h-auto d-block w-100" src="{{ url("build/assets/all/images/pound2.png")}}" alt="Trade Result">
                   <div class="carousel-caption d-none d-lg-block">
-                    <h3 class="mb-2 text-black bg-golden" style="width: 12rem;">Drawdown History</h3>                              
+                    <h3 class="mb-2 text-black">Trade Result</h3>                              
                   </div>
                 </div>
-                <div class="carousel-item">
-                  <img class="h-auto d-block w-100" src="{{ url("build/assets/all/images/growth_march.jpg")}}" alt="History Growth March">
+                <div class="carousel-item active">
+                  <img class="h-auto d-block w-100" src="{{ url("build/assets/all/images/pound3.png")}}" alt="Trade Result">
                   <div class="carousel-caption d-none d-lg-block">
-                    <h3 class="mb-2 text-black bg-golden" style="width: 20rem;">History Growth March</h3>                              
+                    <h3 class="mb-2 text-black">Trade Result</h3>                              
                   </div>
                 </div>
-                <div class="carousel-item">
-                  <img class="h-auto d-block w-100" src="{{ url("build/assets/all/images/growth_feb.jpg")}}" alt="History Growth February">
-                  <div class="carousel-caption d-none d-lg-block">
-                    <h3 class="mb-2 text-black bg-golden" style="width: 20rem;">History Growth Feb</h3>                              
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <img class="h-auto d-block w-100" src="{{ url("build/assets/all/images/growth_jan.jpg")}}" alt="History Growth January">
-                  <div class="carousel-caption d-none d-lg-block">
-                    <h3 class="mb-2 text-black bg-golden" style="width: 20rem;">History Growth January</h3>                              
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <img class="h-auto d-block w-100" src="{{ url("build/assets/all/images/backtest_golden_trend.jpg")}}" alt="Backtest">
-                  <div class="carousel-caption d-none d-lg-block">
-                    <h3 class="mb-2 text-black bg-golden" style="width: 20rem;">Backtest</h3>                              
-                  </div>
-                </div>
+               
+               
+                
+               
+                
               </div>
               <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>

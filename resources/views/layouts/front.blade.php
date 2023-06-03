@@ -226,11 +226,11 @@
                           >Pound Swing Master</a
                         >
                       </li>
-                      <li>
+                      {{-- <li>
                         <a href="/faqs"
                           >FAQs</a
                         >
-                      </li>                        
+                      </li>                         --}}
                     </ul>
                   </div>
                 </div>
@@ -273,7 +273,7 @@
       <div class="container">
         <div class="row col-mb-30">
           <div class="text-center col-md-6 text-md-start">
-            Copyrights &copy; 2023 All Rights Reserved by TradingJourney.Id.<br />
+            Copyrights &copy; 2023 All Rights Reserved by CopyTrading.Id.<br />
             <div class="copyright-links">
               <a href="#">Terms of Use</a> / <a href="#">Privacy Policy</a>
             </div>
@@ -287,7 +287,7 @@
               </a>
             </div>
 
-            <i class="bi-envelope"></i> admin@tradingjourney.id            
+            <i class="bi-envelope"></i> admin@CopyTrading.id            
           </div>
           
         </div>

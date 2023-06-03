@@ -122,45 +122,43 @@
                   </div>                               
                   <div class="row justify-content-center">
                     <div class="col-md-10">                        
-                      <p class="mb-4 text-black text-uppercase fw-semibold ls-1 font-primary">WITH EURO SWING MASTER EXPERT ADVISOR</p>
-                      <h1 class="display-3 fw-normal" style="letter-spacing: -1px;">You can auto-trade with a robot which not only profitable, 
-                        <div class="text-black badge"> but also stable. </div> 
+                      <p class="mb-4 text-black text-uppercase fw-semibold ls-1 font-primary">{{ __('messages.euroSwingText27') }}</p>
+                      <h1 class="display-3 fw-normal" style="letter-spacing: -1px;">{{ __('messages.euroSwingText28') }}<div class="text-black badge">{{ __('messages.euroSwingText29') }}</div> 
                       </h1>
                       <div class="divider divider-right"><i class="bi-heart-fill"></i></div>
-                      <h3>How Euro Swing Master Works?</h3>
+                      <h3>{{ __('messages.euroSwingText30') }}</h3>
 
                       <div class="mb-0 row col-mb-50">
                         <div class="col-md-6">
                           <ul class="iconlist iconlist-lg">
                             <li class="px-3 py-2 rounded bg-hijau-stabilo bg-opacity-10">
-                              <i class="bi-check-circle-fill"></i> <span>Minimum investment = $500</span></li>
+                              <i class="bi-check-circle-fill"></i> <span>{{ __('messages.euroSwingText31') }}</span></li>
                             <li class="px-3 py-2 rounded bg-hijau-stabilo bg-opacity-10">
-                              <i class="bi-check-circle-fill"></i> <span>Risk per trade = 0.5-1% from balance per trade</span></li>
+                              <i class="bi-check-circle-fill"></i> <span>{{ __('messages.euroSwingText32') }}</span></li>
                             <li class="px-3 py-2 rounded bg-hijau-stabilo bg-opacity-10">
-                              <i class="bi-check-circle-fill"></i> <span>Lot use = variable depends on balance</span></li>
+                              <i class="bi-check-circle-fill"></i> <span>{{ __('messages.euroSwingText33') }}</span></li>
                             <li class="px-3 py-2 rounded bg-hijau-stabilo bg-opacity-10">
-                              <i class="bi-check-circle-fill"></i> <span>Risk / Reward = 1:1</span></li>                            
+                              <i class="bi-check-circle-fill"></i> <span>{{ __('messages.euroSwingText34') }}</span></li>                            
                             <li class="px-3 py-2 rounded bg-hijau-stabilo bg-opacity-10">
-                              <i class="bi-check-circle-fill"></i> <span>Most of the entries are based on artificial intelligence in time frame 15 and 30
-                                  minutes, 1 and 4 hours and daily.</span></li>
+                              <i class="bi-check-circle-fill"></i> <span>{{ __('messages.euroSwingText35') }}</span></li>
                           </ul>
                         </div>
 
                         <div class="col-md-6">
                           <ul class="iconlist iconlist-lg">
                             <li class="px-3 py-2 rounded bg-hijau-stabilo bg-opacity-10">
-                              <i class="bi-check-circle-fill"></i> <span>Without the use of dangerous strategies such as martingales and hedges.</span></li>
+                              <i class="bi-check-circle-fill"></i> <span>{{ __('messages.euroSwingText36') }}</span></li>
                             <li class="px-3 py-2 rounded bg-hijau-stabilo bg-opacity-10">
-                              <i class="bi-check-circle-fill"></i> <span>Each one of those strategies has been optimized based on historical data.</span></li>
+                              <i class="bi-check-circle-fill"></i> <span>{{ __('messages.euroSwingText37') }}</span></li>
                             <li class="px-3 py-2 rounded bg-hijau-stabilo bg-opacity-10">
-                              <i class="bi-check-circle-fill"></i> <span>The EA uses take profit or stop loss to close the trades.</span></li>                            
+                              <i class="bi-check-circle-fill"></i> <span>{{ __('messages.euroSwingText38') }}</span></li>                            
                             <li class="px-3 py-2 rounded bg-hijau-stabilo bg-opacity-10">
-                              <i class="bi-check-circle-fill"></i> <span>The entries are a combination of several strategies.</span></li>
+                              <i class="bi-check-circle-fill"></i> <span>{{ __('messages.euroSwingText39') }}</span></li>
                           </ul>
                         </div>
                       <div class="divider divider-right"><i class="bi-heart-fill"></i></div>
                       
-                      <h3>Backtest &amp; Trade Example</h3>
+                      <h3>{{ __('messages.euroSwingText40') }}</h3>
 
                       <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-indicators">
