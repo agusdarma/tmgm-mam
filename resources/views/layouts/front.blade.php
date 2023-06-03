@@ -273,7 +273,7 @@
       <div class="container">
         <div class="row col-mb-30">
           <div class="text-center col-md-6 text-md-start">
-            Copyrights &copy; 2023 All Rights Reserved by CopyTrading.Id.<br />
+            Copyrights &copy; 2023 All Rights Reserved by tmgmsocial.com.<br />
             <div class="copyright-links">
               <a href="#">Terms of Use</a> / <a href="#">Privacy Policy</a>
             </div>
@@ -281,13 +281,13 @@
 
           <div class="text-center col-md-6 text-md-end">
             <div class="mb-2 d-flex justify-content-center justify-content-md-end">              
-              <a href="https://t.me/TradingJourneyIdFree" class="border-transparent social-icon si-small h-bg-telegram">
+              <a href="https://t.me/TradingJourneyDiscussion" class="border-transparent social-icon si-small h-bg-telegram">
                 <i class="fa-brands fa-telegram"></i>
                 <i class="fa-brands fa-telegram"></i>
               </a>
             </div>
 
-            <i class="bi-envelope"></i> admin@CopyTrading.id            
+            <i class="bi-envelope"></i> admin@tmgmsocial.com            
           </div>
           
         </div>
