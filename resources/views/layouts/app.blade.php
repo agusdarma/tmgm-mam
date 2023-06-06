@@ -8,6 +8,16 @@
 
   <title>{{ config('app.name', 'Laravel') }}</title>
 
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TGF3H26V9F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-TGF3H26V9F');
+</script>
+
   <!-- Favicon -->
  <link rel="shortcut icon" type="image/x-icon" href="{{ url("build/assets/all/images/favicon/favicon.ico")}}">
  <link rel="apple-touch-icon" sizes="180x180" href="{{ url("build/assets/all/images/favicon/android-chrome-192x192.png")}}">

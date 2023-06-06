@@ -5,7 +5,7 @@
 return [
 
     // front.blade.php
-    'frontText1' => 'Industry-leading Expert Advisors For MetaTrader 4/5',
+    'frontText1' => 'VIETNAM Industry-leading Expert Advisors For MetaTrader 4/5',
     'frontText2' => 'The secret is to auto-trade with a robot that is not only profitable, but also stable. Start Trading With Expert Advisor With',
     'frontText3' => 'TMGM',
     
@@ -70,8 +70,6 @@ return [
     'euroSwingText38' => 'The EA uses take profit or stop loss to close the trades.',
     'euroSwingText39' => 'The entries are a combination of several strategies.',
     'euroSwingText40' => 'Backtest & Trade Example',
-    'euroSwingText41' => 'Good News!',
-    'euroSwingText42' => 'Join Euro Swing Expert NOW!',
     
 
     // pound-swing-master.blade.php
@@ -115,8 +113,6 @@ return [
     'poundSwingText38' => 'The EA uses take profit or stop loss to close the trades.',
     'poundSwingText39' => 'The entries are a combination of several strategies.',
     'poundSwingText40' => 'Backtest & Trade Example',
-    'poundSwingText41' => 'Good News!',
-    'poundSwingText42' => 'Join Pound Swing Master Expert NOW!',
     
     // verify-email.blade.php
     'verifyEmailText1' => 'Verify your Email Account',

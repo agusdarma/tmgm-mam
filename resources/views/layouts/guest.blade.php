@@ -9,6 +9,16 @@
 
   <title>{{ config('app.name', 'Laravel') }}</title>
 
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TGF3H26V9F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-TGF3H26V9F');
+</script>
+
   <!-- Favicon -->
  <link rel="shortcut icon" type="image/x-icon" href="{{ url("build/assets/all/images/favicon/favicon.ico")}}">
  <link rel="apple-touch-icon" sizes="180x180" href="{{ url("build/assets/all/images/favicon/android-chrome-192x192.png")}}">
@@ -237,20 +247,42 @@
             >
             <ul class="top-links-container">
               @if(app()->getLocale() =='en') 
-              <li class="top-links-item">
-                <a href="{{ route('front.changeLang','en') }}">en</a>
-                <ul class="top-links-sub-menu" style="width: 53px; left: 0">
-                  <li class="top-links-item"><a href="{{ route('front.changeLang','id') }}">id</a></li>
-                </ul>
-              </li>
-              @else
-              <li class="top-links-item">
-                <a href="{{ route('front.changeLang','id') }}">id</a>
-                <ul class="top-links-sub-menu" style="width: 53px; left: 0">
-                  <li class="top-links-item"><a href="{{ route('front.changeLang','en') }}">en</a></li>
-                </ul>
-              </li>
-              @endif
+                <li class="top-links-item">
+                  <a href="{{ route('front.changeLang','en') }}">en</a>
+                  <ul class="top-links-sub-menu" style="width: 53px; left: 0">
+                    <li class="top-links-item"><a href="{{ route('front.changeLang','id') }}">id</a></li>
+                    <li class="top-links-item"><a href="{{ route('front.changeLang','th') }}">th</a></li>
+                    <li class="top-links-item"><a href="{{ route('front.changeLang','vi') }}">vi</a></li>
+                  </ul>
+                </li>
+                @elseif (app()->getLocale() =='id') 
+                <li class="top-links-item">
+                  <a href="{{ route('front.changeLang','id') }}">id</a>
+                  <ul class="top-links-sub-menu" style="width: 53px; left: 0">
+                    <li class="top-links-item"><a href="{{ route('front.changeLang','en') }}">en</a></li>
+                    <li class="top-links-item"><a href="{{ route('front.changeLang','th') }}">th</a></li>
+                    <li class="top-links-item"><a href="{{ route('front.changeLang','vi') }}">vi</a></li>
+                  </ul>
+                </li>
+                @elseif (app()->getLocale() =='th') 
+                <li class="top-links-item">
+                  <a href="{{ route('front.changeLang','th') }}">th</a>
+                  <ul class="top-links-sub-menu" style="width: 53px; left: 0">
+                    <li class="top-links-item"><a href="{{ route('front.changeLang','en') }}">en</a></li>
+                    <li class="top-links-item"><a href="{{ route('front.changeLang','id') }}">id</a></li>
+                    <li class="top-links-item"><a href="{{ route('front.changeLang','vi') }}">vi</a></li>
+                  </ul>
+                </li>
+                @elseif (app()->getLocale() =='vi') 
+                <li class="top-links-item">
+                  <a href="{{ route('front.changeLang','vi') }}">vi</a>
+                  <ul class="top-links-sub-menu" style="width: 53px; left: 0">
+                    <li class="top-links-item"><a href="{{ route('front.changeLang','en') }}">en</a></li>
+                    <li class="top-links-item"><a href="{{ route('front.changeLang','th') }}">th</a></li>
+                    <li class="top-links-item"><a href="{{ route('front.changeLang','vi') }}">vi</a></li>
+                  </ul>
+                </li>
+                @endif
               
             </ul>
             </div>

@@ -7,8 +7,16 @@
               <h3>{{ __('messages.landingText1') }}</h3>
               <span>{{ __('messages.landingText2') }} <em>{{ __('messages.landingText3') }}</em> {{ __('messages.landingText4') }}</span>
             </div>
-            <div class="mt-4 col-12 col-lg-auto mt-lg-0">
-              <a href="https://bit.ly/41STQWm" target="_blank" class="m-0 button button-reveal button-large button-circle text-end"><i class="uil uil-angle-right-b"></i><span>{{ __('messages.landingText5') }}</span></a>
+            <div class="mt-4 col-12 col-lg-auto mt-lg-0">              
+              @if(app()->getLocale() =='en')                                                                 
+                <a href="{{ $euro->url_en }}" target="_blank" class="m-0 button button-reveal button-large button-circle text-end"><i class="uil uil-angle-right-b"></i><span>{{ __('messages.landingText5') }}</span></a>
+              @elseif (app()->getLocale() =='id')                                                                 
+                <a href="{{ $euro->url_id }}" target="_blank" class="m-0 button button-reveal button-large button-circle text-end"><i class="uil uil-angle-right-b"></i><span>{{ __('messages.landingText5') }}</span></a>
+              @elseif (app()->getLocale() =='th')                                                                 
+                <a href="{{ $euro->url_th }}" target="_blank" class="m-0 button button-reveal button-large button-circle text-end"><i class="uil uil-angle-right-b"></i><span>{{ __('messages.landingText5') }}</span></a>
+              @elseif (app()->getLocale() =='vi')                                                                 
+                <a href="{{ $euro->url_vi }}" target="_blank" class="m-0 button button-reveal button-large button-circle text-end"><i class="uil uil-angle-right-b"></i><span>{{ __('messages.landingText5') }}</span></a>
+              @endif
             </div>
           </div>
         </div>

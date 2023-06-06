@@ -15,11 +15,22 @@
                       <p><b>{{ __('messages.euroSwingText1') }}</b> {{ __('messages.euroSwingText3') }}</p>
                       <p>{{ __('messages.euroSwingText4') }}</p>
                       <p>{{ __('messages.euroSwingText5') }}</p>
+                                            
                       
-                      {{-- <a href="{{ route('front.checkout', $item->slug) }}" class="text-white button button-3d button-large bg-hijau-stabilo">
-                        {{ __('messages.euroSwingText6') }}</a> --}}
-                      <a href="https://bit.ly/41STQWm" target="_blank" class="text-white button button-3d button-large bg-hijau-stabilo">
-                          {{ __('messages.euroSwingText6') }}</a>
+
+                      @if(app()->getLocale() =='en')                       
+                      <a href="{{ $item->url_en }}" target="_blank" class="text-white button button-3d button-large bg-hijau-stabilo">
+                        {{ __('messages.euroSwingText6') }}</a>
+                      @elseif (app()->getLocale() =='id')                       
+                      <a href="{{ $item->url_id }}" target="_blank" class="text-white button button-3d button-large bg-hijau-stabilo">
+                        {{ __('messages.euroSwingText6') }}</a>
+                      @elseif (app()->getLocale() =='th')                       
+                      <a href="{{ $item->url_th }}" target="_blank" class="text-white button button-3d button-large bg-hijau-stabilo">
+                        {{ __('messages.euroSwingText6') }}</a>
+                      @elseif (app()->getLocale() =='vi')                       
+                      <a href="{{ $item->url_vi }}" target="_blank" class="text-white button button-3d button-large bg-hijau-stabilo">
+                        {{ __('messages.euroSwingText6') }}</a>
+                      @endif    
 
                         
 
@@ -47,7 +58,18 @@
                           </ul>
                         </div>
                         <div class="px-4 pricing-action">
-                          <a href="https://bit.ly/41STQWm" target="_blank" class="btn btn-danger w-100 btn-lg">{{ __('messages.euroSwingText6') }}</a>
+                          
+                          @if(app()->getLocale() =='en')                                                 
+                            <a href="{{ $item->url_en }}" target="_blank" class="btn btn-danger w-100 btn-lg">{{ __('messages.euroSwingText6') }}</a>  
+                          @elseif (app()->getLocale() =='id')                                                 
+                            <a href="{{ $item->url_id }}" target="_blank" class="btn btn-danger w-100 btn-lg">{{ __('messages.euroSwingText6') }}</a>  
+                          @elseif (app()->getLocale() =='th')                                                 
+                            <a href="{{ $item->url_th }}" target="_blank" class="btn btn-danger w-100 btn-lg">{{ __('messages.euroSwingText6') }}</a>  
+                          @elseif (app()->getLocale() =='vi')                                                 
+                            <a href="{{ $item->url_vi }}" target="_blank" class="btn btn-danger w-100 btn-lg">{{ __('messages.euroSwingText6') }}</a>  
+                          @endif 
+
+
                         </div>
                       </div>
         
@@ -69,7 +91,15 @@
                           </ul>
                         </div>
                         <div class="px-4 pricing-action">
-                          <a href="https://bit.ly/41STQWm" target="_blank" class="btn btn-danger w-100 btn-lg bg-color border-color">{{ __('messages.euroSwingText6') }}</a>
+                          @if(app()->getLocale() =='en')                                                 
+                            <a href="{{ $item->url_en }}" target="_blank" class="btn btn-danger w-100 btn-lg bg-color border-color">{{ __('messages.euroSwingText6') }}</a>  
+                          @elseif (app()->getLocale() =='id')                                                 
+                            <a href="{{ $item->url_id }}" target="_blank" class="btn btn-danger w-100 btn-lg bg-color border-color">{{ __('messages.euroSwingText6') }}</a>  
+                          @elseif (app()->getLocale() =='th')                                                 
+                            <a href="{{ $item->url_th }}" target="_blank" class="btn btn-danger w-100 btn-lg bg-color border-color">{{ __('messages.euroSwingText6') }}</a>  
+                          @elseif (app()->getLocale() =='vi')                                                 
+                            <a href="{{ $item->url_vi }}" target="_blank" class="btn btn-danger w-100 btn-lg bg-color border-color">{{ __('messages.euroSwingText6') }}</a>  
+                          @endif
                         </div>
                       </div>
         
@@ -90,8 +120,16 @@
                             <li>{{ __('messages.euroSwingText17') }}</li> 
                           </ul>
                         </div>
-                        <div class="px-4 pricing-action">
-                          <a href="https://bit.ly/41STQWm" target="_blank" class="btn btn-danger w-100 btn-lg">{{ __('messages.euroSwingText6') }}</a>
+                        <div class="px-4 pricing-action">                          
+                          @if(app()->getLocale() =='en')                                                 
+                            <a href="{{ $item->url_en }}" target="_blank" class="btn btn-danger w-100 btn-lg">{{ __('messages.euroSwingText6') }}</a>  
+                          @elseif (app()->getLocale() =='id')                                                 
+                            <a href="{{ $item->url_id }}" target="_blank" class="btn btn-danger w-100 btn-lg">{{ __('messages.euroSwingText6') }}</a>  
+                          @elseif (app()->getLocale() =='th')                                                 
+                            <a href="{{ $item->url_th }}" target="_blank" class="btn btn-danger w-100 btn-lg">{{ __('messages.euroSwingText6') }}</a>  
+                          @elseif (app()->getLocale() =='vi')                                                 
+                            <a href="{{ $item->url_vi }}" target="_blank" class="btn btn-danger w-100 btn-lg">{{ __('messages.euroSwingText6') }}</a>  
+                          @endif
                         </div>
                       </div>
         
@@ -112,8 +150,16 @@
                             <li>{{ __('messages.euroSwingText17') }}</li>                                                       
                           </ul>
                         </div>
-                        <div class="px-4 pricing-action">
-                          <a href="https://bit.ly/41STQWm" target="_blank" class="btn btn-danger w-100 btn-lg bg-color border-color">{{ __('messages.euroSwingText6') }}</a>
+                        <div class="px-4 pricing-action">                          
+                          @if(app()->getLocale() =='en')                                                 
+                            <a href="{{ $item->url_en }}" target="_blank" class="btn btn-danger w-100 btn-lg bg-color border-color">{{ __('messages.euroSwingText6') }}</a>  
+                          @elseif (app()->getLocale() =='id')                                                 
+                            <a href="{{ $item->url_id }}" target="_blank" class="btn btn-danger w-100 btn-lg bg-color border-color">{{ __('messages.euroSwingText6') }}</a>  
+                          @elseif (app()->getLocale() =='th')                                                 
+                            <a href="{{ $item->url_th }}" target="_blank" class="btn btn-danger w-100 btn-lg bg-color border-color">{{ __('messages.euroSwingText6') }}</a>  
+                          @elseif (app()->getLocale() =='vi')                                                 
+                            <a href="{{ $item->url_vi }}" target="_blank" class="btn btn-danger w-100 btn-lg bg-color border-color">{{ __('messages.euroSwingText6') }}</a>  
+                          @endif
                         </div>
                       </div>
         
@@ -206,10 +252,20 @@
           <div class="container">
             <div class="row justify-content-between align-items-center">
               <div class="col-lg-auto">
-                <strong><i class="bi-boxes"></i> Good News!</strong> Join Euro Swing Expert NOW!
+                <strong><i class="bi-boxes"></i> {{ __('messages.euroSwingText41') }}</strong> {{ __('messages.euroSwingText42') }}
               </div>
               <div class="mt-3 col-lg-auto mt-lg-0">
-                <a href="https://bit.ly/41STQWm" target="_blank" class="btn btn-success">Join Now</a>
+                
+                @if(app()->getLocale() =='en') 
+                <a href="{{ $item->url_en }}" target="_blank" class="btn btn-success">{{ __('messages.euroSwingText6') }}</a>
+                @elseif (app()->getLocale() =='id') 
+                <a href="{{ $item->url_id }}" target="_blank" class="btn btn-success">{{ __('messages.euroSwingText6') }}</a>
+                @elseif (app()->getLocale() =='th') 
+                <a href="{{ $item->url_th }}" target="_blank" class="btn btn-success">{{ __('messages.euroSwingText6') }}</a>
+                @elseif (app()->getLocale() =='vi') 
+                <a href="{{ $item->url_vi }}" target="_blank" class="btn btn-success">{{ __('messages.euroSwingText6') }}</a>
+                @endif
+
                 <button type="button" class="btn-close btn btn-link float-lg-none text-dark ms-md-3" data-bs-dismiss="alert" aria-hidden="true"></button>
               </div>
             </div>

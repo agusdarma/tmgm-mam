@@ -108,9 +108,65 @@
               </label>
               <input value="{{ old('features') ?? $item->features }}" name="features"
                      class="block w-full px-4 py-3 leading-tight text-gray-700 bg-gray-200 border border-gray-200 rounded appearance-none focus:outline-none focus:bg-white focus:border-gray-500"
-                     id="grid-last-name" type="text" placeholder="Nama">
+                     id="grid-last-name" type="text" placeholder="Fitur">
               <div class="mt-2 text-sm text-gray-500">
                 Fitur item. Contoh: Fitur 1, Fitur 2, Fitur 3, dsb. Dipisahkan dengan koma (,). Opsional
+              </div>
+            </div>
+          </div>
+
+          <div class="flex flex-wrap px-3 mt-4 mb-6 -mx-3">
+            <div class="w-full">
+              <label class="block mb-2 text-xs font-bold tracking-wide text-gray-700 uppercase" for="grid-last-name">
+                Url English (EN)
+              </label>
+              <input value="{{ old('url_en') ?? $item->url_en }}" name="url_en"
+                     class="block w-full px-4 py-3 leading-tight text-gray-700 bg-gray-200 border border-gray-200 rounded appearance-none focus:outline-none focus:bg-white focus:border-gray-500"
+                     id="grid-last-name" type="text" placeholder="Url English (EN)">
+              <div class="mt-2 text-sm text-gray-500">
+                Url English (EN). Contoh: https://portal.tmgm.com/register?node=MTI0NjY1&language=en. Opsional
+              </div>
+            </div>
+          </div>
+
+          <div class="flex flex-wrap px-3 mt-4 mb-6 -mx-3">
+            <div class="w-full">
+              <label class="block mb-2 text-xs font-bold tracking-wide text-gray-700 uppercase" for="grid-last-name">
+                Url Indonesia (ID)
+              </label>
+              <input value="{{ old('url_id') ?? $item->url_id }}" name="url_id"
+                     class="block w-full px-4 py-3 leading-tight text-gray-700 bg-gray-200 border border-gray-200 rounded appearance-none focus:outline-none focus:bg-white focus:border-gray-500"
+                     id="grid-last-name" type="text" placeholder="Url Indonesia (ID)">
+              <div class="mt-2 text-sm text-gray-500">
+                Url Indonesia (ID). Contoh: https://portal.tmgmasia.com/register?node=MTI0NjY1&language=id. Opsional
+              </div>
+            </div>
+          </div>
+
+          <div class="flex flex-wrap px-3 mt-4 mb-6 -mx-3">
+            <div class="w-full">
+              <label class="block mb-2 text-xs font-bold tracking-wide text-gray-700 uppercase" for="grid-last-name">
+                Url Thailand (TH)
+              </label>
+              <input value="{{ old('url_th') ?? $item->url_th }}" name="url_th"
+                     class="block w-full px-4 py-3 leading-tight text-gray-700 bg-gray-200 border border-gray-200 rounded appearance-none focus:outline-none focus:bg-white focus:border-gray-500"
+                     id="grid-last-name" type="text" placeholder="Url Thailand (TH)">
+              <div class="mt-2 text-sm text-gray-500">
+                Url Thailand (TH). Contoh: https://portal.tmgm.com/register?node=MTI1MjE2&language=th. Opsional
+              </div>
+            </div>
+          </div>
+
+          <div class="flex flex-wrap px-3 mt-4 mb-6 -mx-3">
+            <div class="w-full">
+              <label class="block mb-2 text-xs font-bold tracking-wide text-gray-700 uppercase" for="grid-last-name">
+                Url Vietnam (VI)
+              </label>
+              <input value="{{ old('url_vi') ?? $item->url_vi }}" name="url_vi"
+                     class="block w-full px-4 py-3 leading-tight text-gray-700 bg-gray-200 border border-gray-200 rounded appearance-none focus:outline-none focus:bg-white focus:border-gray-500"
+                     id="grid-last-name" type="text" placeholder="Url Vietnam (VI)">
+              <div class="mt-2 text-sm text-gray-500">
+                Url Vietnam (VI). Contoh: https://portal.tmgm.com/register?node=MTI1MjE2&language=th. Opsional
               </div>
             </div>
           </div>
