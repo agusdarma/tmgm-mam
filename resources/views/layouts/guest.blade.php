@@ -249,36 +249,36 @@
               @if(app()->getLocale() =='en')                 
               <li class="col-auto top-links-item"><a href="{{ route('front.changeLang','en') }}"><img src="{{ url("build/assets/all/images/flags/eng.png")}}" style="max-width:25%;" alt="English"> English</a>
                 <ul class="top-links-sub-menu">
-                  <li class="top-links-item"><a href="{{ route('front.changeLang','id') }}"><img src="{{ url("build/assets/all/images/flags/ind.png")}}" alt="Indonesian">Indonesian</a></li>
-                  <li class="top-links-item"><a href="{{ route('front.changeLang','th') }}"><img src="{{ url("build/assets/all/images/flags/tha.png")}}" alt="Thailand">Thailand</a></li>
-                  <li class="top-links-item"><a href="{{ route('front.changeLang','vi') }}"><img src="{{ url("build/assets/all/images/flags/vie.png")}}" alt="Vietnam">Vietnam</a></li>
+                  <li class="mb-1 top-links-item"><a href="{{ route('front.changeLang','id') }}"><img src="{{ url("build/assets/all/images/flags/ind.png")}}" alt="Indonesian">Indonesian</a></li>
+                  <li class="mb-1 top-links-item"><a href="{{ route('front.changeLang','th') }}"><img src="{{ url("build/assets/all/images/flags/tha.png")}}" alt="Thailand">Thailand</a></li>
+                  <li class="mb-1 top-links-item"><a href="{{ route('front.changeLang','vi') }}"><img src="{{ url("build/assets/all/images/flags/vie.png")}}" alt="Vietnam">Vietnam</a></li>
                 </ul>
               </li>
               @elseif (app()->getLocale() =='id') 
               <li class="col-auto top-links-item">
                 <a href="{{ route('front.changeLang','id') }}"><img src="{{ url("build/assets/all/images/flags/ind.png")}}" style="max-width:25%;" alt="Indonesian"> Indonesian</a>
                 <ul class="top-links-sub-menu">
-                  <li class="top-links-item"><a href="{{ route('front.changeLang','en') }}"><img src="{{ url("build/assets/all/images/flags/eng.png")}}" alt="English">English</a></li>
-                  <li class="top-links-item"><a href="{{ route('front.changeLang','th') }}"><img src="{{ url("build/assets/all/images/flags/tha.png")}}" alt="Thailand">Thailand</a></li>
-                  <li class="top-links-item"><a href="{{ route('front.changeLang','vi') }}"><img src="{{ url("build/assets/all/images/flags/vie.png")}}" alt="Vietnam">Vietnam</a></li>
+                  <li class="mb-1 top-links-item"><a href="{{ route('front.changeLang','en') }}"><img src="{{ url("build/assets/all/images/flags/eng.png")}}" alt="English">English</a></li>
+                  <li class="mb-1 top-links-item"><a href="{{ route('front.changeLang','th') }}"><img src="{{ url("build/assets/all/images/flags/tha.png")}}" alt="Thailand">Thailand</a></li>
+                  <li class="mb-1 top-links-item"><a href="{{ route('front.changeLang','vi') }}"><img src="{{ url("build/assets/all/images/flags/vie.png")}}" alt="Vietnam">Vietnam</a></li>
                 </ul>
               </li>
               @elseif (app()->getLocale() =='th') 
               <li class="col-auto top-links-item">
                 <a href="{{ route('front.changeLang','th') }}"><img src="{{ url("build/assets/all/images/flags/tha.png")}}" style="max-width:25%;" alt="Thailand"> Thailand</a>
                 <ul class="top-links-sub-menu">
-                  <li class="top-links-item"><a href="{{ route('front.changeLang','en') }}"><img src="{{ url("build/assets/all/images/flags/eng.png")}}" alt="English">English</a></li>
-                  <li class="top-links-item"><a href="{{ route('front.changeLang','id') }}"><img src="{{ url("build/assets/all/images/flags/ind.png")}}" alt="Indonesian">Indonesian</a></li>
-                  <li class="top-links-item"><a href="{{ route('front.changeLang','vi') }}"><img src="{{ url("build/assets/all/images/flags/vie.png")}}" alt="Vietnam">Vietnam</a></li>
+                  <li class="mb-1 top-links-item"><a href="{{ route('front.changeLang','en') }}"><img src="{{ url("build/assets/all/images/flags/eng.png")}}" alt="English">English</a></li>
+                  <li class="mb-1 top-links-item"><a href="{{ route('front.changeLang','id') }}"><img src="{{ url("build/assets/all/images/flags/ind.png")}}" alt="Indonesian">Indonesian</a></li>
+                  <li class="mb-1 top-links-item"><a href="{{ route('front.changeLang','vi') }}"><img src="{{ url("build/assets/all/images/flags/vie.png")}}" alt="Vietnam">Vietnam</a></li>
                 </ul>
               </li>
               @elseif (app()->getLocale() =='vi') 
               <li class="col-auto top-links-item">
                 <a href="{{ route('front.changeLang','vi') }}"><img src="{{ url("build/assets/all/images/flags/vie.png")}}" style="max-width:25%;" alt="Vietnam"> Vietnam</a>
                 <ul class="top-links-sub-menu">
-                  <li class="top-links-item"><a href="{{ route('front.changeLang','en') }}"><img src="{{ url("build/assets/all/images/flags/eng.png")}}" alt="English">English</a></li>
-                  <li class="top-links-item"><a href="{{ route('front.changeLang','th') }}"><img src="{{ url("build/assets/all/images/flags/tha.png")}}" alt="Thailand">Thailand</a></li>
-                  <li class="top-links-item"><a href="{{ route('front.changeLang','id') }}"><img src="{{ url("build/assets/all/images/flags/ind.png")}}" alt="Indonesian">Indonesian</a></li>
+                  <li class="mb-1 top-links-item"><a href="{{ route('front.changeLang','en') }}"><img src="{{ url("build/assets/all/images/flags/eng.png")}}" alt="English">English</a></li>
+                  <li class="mb-1 top-links-item"><a href="{{ route('front.changeLang','th') }}"><img src="{{ url("build/assets/all/images/flags/tha.png")}}" alt="Thailand">Thailand</a></li>
+                  <li class="mb-1 top-links-item"><a href="{{ route('front.changeLang','id') }}"><img src="{{ url("build/assets/all/images/flags/ind.png")}}" alt="Indonesian">Indonesian</a></li>
                 </ul>
               </li>
               @endif
