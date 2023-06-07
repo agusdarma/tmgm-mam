@@ -7,7 +7,7 @@ return [
   
 
     // front.blade.php
-    'frontText1' => 'INDONESIA Industry-leading Expert Advisors For MetaTrader 4/5',
+    'frontText1' => 'Industry-leading Expert Advisors For MetaTrader 4/5',
     'frontText2' => 'The secret is to auto-trade with a robot that is not only profitable, but also stable. Start Trading With Expert Advisor With',
     'frontText3' => 'TMGM',
     
