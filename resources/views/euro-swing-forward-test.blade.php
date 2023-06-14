@@ -19,7 +19,7 @@
     </div>
     
     <div  class="container">        
-        <table class="table table-bordered data-table">
+        <table class="table table-bordered data-table" style="width:100%">
             <thead>
                 <tr>
                     <th>Open Time</th>
@@ -198,6 +198,7 @@
               var table = $('.data-table').DataTable({
                   processing: true,
                   serverSide: true,
+                  scrollX: true,
                   ajax: "{{ route('front.euro.forwardTest.index') }}",
                   columns: [
                       {data: 'open_time', name: 'open_time'},
