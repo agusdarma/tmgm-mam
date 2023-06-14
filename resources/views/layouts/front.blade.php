@@ -8,6 +8,7 @@
   <meta name="csrf-token" content="{{ csrf_token() }}">
 
   <title>{{ config('app.name', 'Laravel') }}</title>
+  <title>@yield('title')</title>
 
   <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-TGF3H26V9F"></script>
@@ -43,6 +44,9 @@
   <!-- Custom CSS -->
   <link rel="stylesheet" href="{{ url("build/assets/all/css/custom.css")}}" />
 
+  <!-- If you need add custom script -->
+  {{ $headerScript ?? '' }}
+  
   <!-- Styles -->
   @livewireStyles
 
@@ -146,7 +150,15 @@
                     <a class="menu-link" href="/pound-swing-master/pound-swing-master-8kkbd"><div><i class="bi-currency-pound"></i>Pound Swing Master</div></a>                    
                   </li>                                                      
                 </ul>
-              </li>                                                        
+              </li>    
+              <li class="menu-item">
+                <a class="menu-link" href="#"><div>Forward Test</div></a>
+                <ul class="sub-menu-container">
+                  <li class="menu-item">                    
+                    <a class="menu-link" href="{{ route('front.euro.forwardTest.index') }}"><div><i class="bi-currency-euro"></i>Euro Swing Master</div></a>                   
+                  </li>
+                </ul>
+              </li>                                                    
             </ul>
           </nav><!-- #primary-menu end -->         
         </div>
@@ -166,7 +178,7 @@
             <div class="container">
               <div class="slider-caption slider-caption-center">
                 <h1 data-animate="fadeInUp">{{ __('messages.frontText1') }}</h1>
-                <p class="d-none d-sm-block" data-animate="fadeInUp" data-delay="200">{{ __('messages.frontText2') }} <h1> <span class="text-white bg-white rounded">{{ __('messages.frontText3') }}</span></h1></p>
+                <p class="d-none d-sm-block" data-animate="fadeInUp" data-delay="200">{{ __('messages.frontText2') }} <h1> <span class="text-white rounded bg-tmgm">{{ __('messages.frontText3') }}</span></h1></p>
               </div>
             </div>
             <div class="swiper-slide-bg" style="background-image: url('{{ url("build/assets/all/images/slider/swiper/1.jpg")}}');"></div>

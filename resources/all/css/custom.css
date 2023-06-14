@@ -7,7 +7,7 @@
 
 /* Social Icons - colors
 -----------------------------------------------------------------*/
-.bg-white {
+.bg-tmgm {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-tmgm-rgb), var(--bs-bg-opacity)) !important;
 }

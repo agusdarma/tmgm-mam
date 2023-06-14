@@ -123,5 +123,8 @@ return [
     'verifyEmailText2' => "Before continuing, could you verify your email address by clicking on the link we just emailed to you? If you didn't receive the email, we will gladly send you another.",
     'verifyEmailText3' => "Resend Verification Email",
 
+    'euroForwardTestText1' => 'FORWARD TEST EURO SWING MASTER',
+    'euroForwardTestText2' => 'Trading History',
+
 
 ];

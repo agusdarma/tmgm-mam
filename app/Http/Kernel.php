@@ -66,4 +66,8 @@ class Kernel extends HttpKernel
         'isAdmin' => \App\Http\Middleware\IsAdmin::class,
         'setLocale' => \App\Http\Middleware\LanguageManager::class,
     ];
+
+    protected $commands = [
+        'App\Console\Commands\StoreEuroTradesCommand'
+      ];
 }
