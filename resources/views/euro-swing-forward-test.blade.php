@@ -2,7 +2,7 @@
     @section('title', 'Euro Swing Forward Test - Industry-leading Expert Advisors - TradingJourney.ID')
     <x-slot name="headerScript">
         {{-- <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/css/bootstrap.min.css" rel="stylesheet"> --}}
-        {{-- <link href="https://cdn.datatables.net/1.11.4/css/dataTables.bootstrap5.min.css" rel="stylesheet"> --}}
+        <link href="https://cdn.datatables.net/1.11.4/css/dataTables.bootstrap5.min.css" rel="stylesheet">
         <script src="https://code.jquery.com/jquery-3.5.1.js"></script>  
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.js"></script>
         <script src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.min.js"></script>
@@ -201,7 +201,10 @@
                   scrollX: true,
                   ajax: "{{ route('front.euro.forwardTest.index') }}",
                   columns: [
-                      {data: 'open_time', name: 'open_time'},
+                      {
+                        data: 'open_time', 
+                        name: 'open_time',
+                      },
                       {data: 'close_time', name: 'close_time'},
                       {data: 'symbol', name: 'symbol'},
                       {data: 'action', name: 'action'},
