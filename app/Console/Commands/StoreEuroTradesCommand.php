@@ -67,7 +67,7 @@ class StoreEuroTradesCommand extends Command
             }
             if($sessionToken != null){        
                 $listHistory = getHistoryById($sessionToken,'10228244');
-                if($listHistory != null){
+                if($listHistory != null){                    
                     foreach ($listHistory as $history) {                               
                         $openTime = $history['openTime'];
                         $closeTime = $history['closeTime'];
@@ -137,7 +137,8 @@ class StoreEuroTradesCommand extends Command
         // Log::info('probability : {probability}',['probability' => $probability]);
         $summaryEuroTrades->probability = $probability;
         // Avg Risk Reward
-        $euroTrades = EuroTrades::all();            
+        // di order supaya akurat untuk hitung consecutive profit dan loss
+        $euroTrades = EuroTrades::orderBy('close_time')->get();      
         $countData = intval(0);
         $rr = floatval(0);
         foreach ($euroTrades as $euroTrade) {
@@ -253,6 +254,7 @@ class StoreEuroTradesCommand extends Command
         foreach ($euroTrades as $euroTrade){
             $result = $euroTrade->result; 
             // Log::info('result : {result}',['result' => $result]);
+            // Log::info('open_time : {open_time}',['open_time' => $euroTrade->open_time]);
             if($result == 'SL'){
                 $consLoss = $consLoss + 1;
                 $lossExisting = $summaryEuroTrades->consecutive_loss;                    
