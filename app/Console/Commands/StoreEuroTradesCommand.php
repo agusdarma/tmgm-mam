@@ -90,9 +90,12 @@ class StoreEuroTradesCommand extends Command
                             
                         $word = "EURO SWING MASTER";
                         $word2 = "EurUsd"; 
+                        $word3 = "8145107";
                         if(strpos($comment, $word) == false){
                             if(strpos($comment, $word2) == false){
-                                continue;
+                                if(strpos($comment, $word3) == false){
+                                    continue;
+                                } 
                             }                                    
                         }                                                                                               
 
